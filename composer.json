@@ -2,14 +2,16 @@
     "name": "decodelabs/kingdom",
     "description": "Service container and management system",
     "type": "library",
-    "keywords": [],
+    "keywords": [ ],
     "license": "MIT",
-    "authors": [{
-        "name": "Tom Wright",
-        "email": "tom@inflatablecookie.com"
-    }],
+    "authors": [ {
+            "name": "Tom Wright",
+            "email": "tom@inflatablecookie.com"
+        } ],
     "require": {
         "php": "^8.4",
+        "psr/container": "^2.0",
+
         "decodelabs/exceptional": "^0.6.1"
     },
     "require-dev": {
@@ -17,8 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DecodeLabs\\Kingdom\\": "src/"
-        }
+            "DecodeLabs\\Kingdom\\": "src/Kingdom/"
+        },
+        "classmap": [
+            "src/Kingdom.php",
+            "src/KingdomTrait.php"
+        ]
     },
     "extra": {
         "branch-alias": {
