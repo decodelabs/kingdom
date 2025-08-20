@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @package Kairos
+ * @package Kingdom
  * @license http://opensource.org/licenses/MIT
  */
 
