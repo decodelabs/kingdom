@@ -62,7 +62,7 @@ interface ContainerAdapter
     /**
      * @template T of object
      * @param class-string<T> $type
-     * @param Closure:T $factory
+     * @param Closure $factory
      */
     public function setFactory(
         string $type,
