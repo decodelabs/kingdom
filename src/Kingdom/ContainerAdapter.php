@@ -74,10 +74,13 @@ interface ContainerAdapter
      * @template T2 of T
      * @param class-string<T> $type
      * @param class-string<T2> $instanceType
+     * @param array<string,mixed> $parameters
      */
     public function setType(
         string $type,
-        string $instanceType
+        string $instanceType,
+        array $parameters = [],
+        mixed ...$parameterList
     ): void;
 
     public function getPsrContainer(): ContainerInterface;
