@@ -15,6 +15,8 @@ Kingdom provides a set of simple but powerful interfaces for building structures
 
 ## Installation
 
+This package requires PHP 8.4 or higher.
+
 Install via Composer:
 
 ```bash
