@@ -1,8 +1,8 @@
 <?php
 
 /**
- * @package Kingdom
- * @license http://opensource.org/licenses/MIT
+ * Kingdom
+ * @license https://opensource.org/licenses/MIT
  */
 
 declare(strict_types=1);
